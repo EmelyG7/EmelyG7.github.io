@@ -1,0 +1,46 @@
+/* Estilos para el menú desplegable en dispositivos móviles */
+.dropdown-menu {
+    width: 100%; /* Ocupa todo el ancho de la ventana */
+    background-color: #333; /* Color de fondo */
+}
+
+.dropdown-menu li {
+    text-align: center; /* Centra el texto */
+    background-color: #b5e1fc; /* Color de fondo */
+
+}
+
+.dropdown-menu li a {
+    background-color: #fff; /* Color de fondo */
+    color: #fff;   /*Color del texto */
+}
+
+/* Estilos para el encabezado de la página */
+h1 {
+    margin-top: 50px; /* Espacio superior */
+    margin-bottom: 50px; /* Espacio inferior */
+
+}
+
+/* Estilos para la sección de contenido */
+.container {
+    margin-top: 30px; /* Espacio superior */
+    margin-bottom: 30px; /* Espacio inferior */
+}
+
+/* Estilos adicionales para la sección de contenido */
+.section {
+    height: 1000px; /* Altura */
+    overflow-y: auto; /* Agrega desplazamiento vertical cuando el contenido exceda la altura máxima */
+    background-color: #b5e1fc; /* Color de fondo */
+    padding: 20px 40px;
+}
+
+/* Oculta la barra de desplazamiento en navegadores WebKit */
+.section::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    font-family: 'Courgette', cursive;
+}
