@@ -1,0 +1,83 @@
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Estilos de las secciones */
+.article {
+    border: 2px solid #000;
+    margin: 10px;
+    background-color: rgba(122, 122, 122, 0.45); /* Color de fondo de la seccion */
+
+    flex-grow: 1;
+    padding: 5px 10px; /* Agregamos relleno */
+    border-radius: 2px; /* Hacemos que los bordes sean suaves */
+    position: relative;
+}
+
+/* Estilos de los títulos de las secciones */
+.title {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #000; /* Color del texto del título */
+    border-radius: 1px; /* Hacemos que los bordes sean suaves */
+    padding: 5px 10px;
+    border: 2px solid #000000;
+}
+/* Colores diferentes para cada título */
+#chicken.title {
+    background-color: rgb(237, 122, 122);
+}
+
+#beef.title {
+    background-color: rgb(160, 202, 226); /* Azul */
+}
+
+#sushi.title {
+    background-color: rgb(107, 209, 89); /* Verde */
+}
+/* Estilos de los párrafos dentro de los artículos */
+.article p {
+    margin-top: 50px; /* Ajustamos el margen superior */
+}
+
+/* Media queries para diseño responsive */
+@media screen and (max-width: 767px) {
+    .article {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .article {
+        width: 48%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .article {
+        width: 31.3333%;
+    }
+}
